@@ -3,27 +3,27 @@
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun | about the Internet of Things</title>
+	<title>AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun | coreIoT Blog | about the Internet of Things</title>
 	<meta name="description" content="">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" type="text/css" href="../assets/css/dependencies.css?v=2862a3e435">
-	<link rel="stylesheet" type="text/css" href="../assets/css/style.css?v=2862a3e435">
+	<link rel="stylesheet" type="text/css" href="../assets/css/dependencies.css?v=8b625e2a83">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css?v=8b625e2a83">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic%7CInconsolata:400%7COpen+Sans:300,400,700,800">
 
-	<script type="text/javascript" src="../assets/js/dependencies.initial.js?v=2862a3e435"></script>
+	<script type="text/javascript" src="../assets/js/dependencies.initial.js?v=8b625e2a83"></script>
 
 	<link rel="canonical" href="http://blog.coreiot.com/aws-iot-beta/">
     <meta name="referrer" content="origin">
     
     <meta property="og:site_name" content="coreIoT blog">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun">
+    <meta property="og:title" content="AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun | coreIoT Blog">
     <meta property="og:description" content="Announced in 8th Oct 2015, AWS is officially embracing IoT into one of their service.  Excitingly enough, still in beta version, AWS IoT is a managed cloud platform that able to support billions of devices and trillions of messages with...">
     <meta property="og:url" content="http://blog.coreiot.com/aws-iot-beta/">
     <meta property="article:published_time" content="2015-11-25T04:03:42.337Z">
-    <meta property="article:modified_time" content="2015-11-25T07:13:19.546Z">
+    <meta property="article:modified_time" content="2016-02-01T18:43:02.253Z">
     <meta property="article:tag" content="AWS IoT">
     <meta property="article:tag" content="MQTT">
     <meta property="article:tag" content="Arduino Yun">
@@ -32,7 +32,7 @@
     <meta property="article:tag" content="Tutorial">
     
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun">
+    <meta name="twitter:title" content="AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun | coreIoT Blog">
     <meta name="twitter:description" content="Announced in 8th Oct 2015, AWS is officially embracing IoT into one of their service.  Excitingly enough, still in beta version, AWS IoT is a managed cloud platform that able to support billions of devices and trillions of messages with...">
     <meta name="twitter:url" content="http://blog.coreiot.com/aws-iot-beta/">
     
@@ -43,16 +43,16 @@
     "publisher": "coreIoT blog",
     "author": {
         "@type": "Person",
-        "name": "Aaron Kow",
-        "image": "http://blog.coreiot.com/content/images/2015/11/aaronkow.jpg",
-        "url": "http://blog.coreiot.com/author/aaronkow",
+        "name": "SilverFangs",
+        "image": "http://blog.coreiot.com/content/images/2016/02/wolf_icon.png",
+        "url": "http://blog.coreiot.com/author/silverfangs",
         "sameAs": null,
-        "description": "Editor for coreIoT blog. I'm passionate about the \"Internet of Things\". This passion come from my engineering final year project that relates to IoT, and it makes me happy."
+        "description": "SilverFangs love its life. It loves technology, humanity and the community. It wishes to contribute to humanity."
     },
-    "headline": "AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun",
+    "headline": "AWS IoT (Beta) + Walkthrough for AWS CLI, MQTT and Yun | coreIoT Blog",
     "url": "http://blog.coreiot.com/aws-iot-beta/",
     "datePublished": "2015-11-25T04:03:42.337Z",
-    "dateModified": "2015-11-25T07:13:19.546Z",
+    "dateModified": "2016-02-01T18:43:02.253Z",
     "keywords": "AWS IoT, MQTT, Arduino Yun, Mosquitto, CLI, Tutorial",
     "description": "Announced in 8th Oct 2015, AWS is officially embracing IoT into one of their service.  Excitingly enough, still in beta version, AWS IoT is a managed cloud platform that able to support billions of devices and trillions of messages with..."
 }
@@ -153,11 +153,11 @@ The AWS IoT security model is one of shared responsibility, with an emphasis on 
 			
 			<aside class="post-author">
 					<figure class="post-author-avatar">
-						<img src="../content/images/2015/11/aaronkow.jpg" alt="Aaron Kow">
+						<img src="../content/images/2016/02/wolf_icon.png" alt="SilverFangs">
 					</figure>
 				<div class="post-author-bio">
-					<h4><a class="js-author-index js-ajax-link" href="../author/aaronkow/">Aaron Kow</a></h4>
-						<p>Editor for coreIoT blog. I'm passionate about the "Internet of Things". This passion come from my engineering final year project that relates to IoT, and it makes me happy.</p>
+					<h4><a class="js-author-index js-ajax-link" href="../author/silverfangs/">SilverFangs</a></h4>
+						<p>SilverFangs love its life. It loves technology, humanity and the community. It wishes to contribute to humanity.</p>
 				</div>
 				<div class="clear"></div>
 			</aside>
@@ -190,6 +190,6 @@ The AWS IoT security model is one of shared responsibility, with an emphasis on 
         <a href="../sitemap.xsl">sitemap.xsl</a>
     </aside>
 	
-	<script type="text/javascript" src="../assets/js/dependencies.js?v=2862a3e435"></script>
-	<script type="text/javascript" src="../assets/js/script.js?v=2862a3e435"></script>
+	<script type="text/javascript" src="../assets/js/dependencies.js?v=8b625e2a83"></script>
+	<script type="text/javascript" src="../assets/js/script.js?v=8b625e2a83"></script>
 </body>
